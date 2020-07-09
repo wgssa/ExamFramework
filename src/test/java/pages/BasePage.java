@@ -8,7 +8,7 @@ public class BasePage extends PageObject {
 
     protected BasePage(WebDriver driver) {
         super(driver);
-        //Инициализация элементов:
+
         PageFactory.initElements(driver, this);
     }
 }
